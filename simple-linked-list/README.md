@@ -1,20 +1,21 @@
 # Go/Flatten
 
 ## Instructions
-Take a nested list and return a single flattened list with all values except nil/null.
+You work for a music streaming company.
 
-The challenge is to write a function that accepts an arbitrarily-deep nested list-like structure and returns a flattened structure without any nil/null values.
+You've been tasked with creating a playlist feature for your music player application.
 
-For example:
+Instructions
+Write a prototype of the music player application.
 
-input: [1,[2,3,null,4],[null],5]
+For the prototype, each song will simply be represented by a number. Given a range of numbers (the song IDs), create a singly linked list.
 
-output: [1,2,3,4,5]
+Given a singly linked list, you should be able to reverse the list to play the songs in the opposite order.
 
 
 Here's what was needed:
 
-  1. Initialize Go module: go mod init flatten
+  1. Initialize Go module: go mod init erratum
   2. Rename test file: The test file needed to be named *_test.go (changed tests.go to error_handling_test.go)
   3. Run go test
 
