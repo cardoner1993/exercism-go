@@ -26,7 +26,7 @@ The smallest palindrome product is 121. Its factors are (11, 11). The largest pa
 
 Here's what was needed:
 
-  1. Initialize Go module: go mod init erratum
+  1. Initialize Go module: go mod init palindrome
   2. Rename test file: The test file needed to be named *_test.go (changed tests.go to error_handling_test.go)
   3. Run go test
 
