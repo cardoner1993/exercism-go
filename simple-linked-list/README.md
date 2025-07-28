@@ -15,7 +15,7 @@ Given a singly linked list, you should be able to reverse the list to play the s
 
 Here's what was needed:
 
-  1. Initialize Go module: go mod init erratum
+  1. Initialize Go module: go mod init linkedlist
   2. Rename test file: The test file needed to be named *_test.go (changed tests.go to error_handling_test.go)
   3. Run go test
 
